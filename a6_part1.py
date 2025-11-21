@@ -188,7 +188,7 @@ def visualize_results(X_train, y_train, X_test, y_test, predictions, model):
     plt.savefig('predictions_plot.png', dpi=300, bbox_inches='tight')
     # TODO: Show the plot
     print("\n✓ Predictions plot saved as 'predictions_plot.png'")
-
+    plt.show()
 
 def make_prediction(model, hours):
     """
