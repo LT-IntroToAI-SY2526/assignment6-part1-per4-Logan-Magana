@@ -26,7 +26,7 @@ def load_and_explore_data(filename):
     """
     # Load the data
     data = pd.read_csv(filename)
-    
+
     print("=== Ice Cream Sales Data ===")
     print(f"\nFirst 5 rows:")
     print(data.head())
