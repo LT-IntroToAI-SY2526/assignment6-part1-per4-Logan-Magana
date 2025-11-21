@@ -11,7 +11,7 @@
 What does the R² score tell you about your model? What does it mean if R² is close to 1? What if it's close to 0?
 
 **YOUR ANSWER:**
-
+It explains how closely the variation of test scores is. Ideally we would want R^2 to be as close to 1 as possible. Getting closer to 1 would mean that there is a stronger correlation between studying and test scores and it would be easier to predict other values in the data set
 
 
 
@@ -21,7 +21,7 @@ What does the R² score tell you about your model? What does it mean if R² is c
 What does the MSE (Mean Squared Error) mean in plain English? Why do you think we square the errors instead of just taking the average of the errors?
 
 **YOUR ANSWER:**
-
+It is the difference between a predicted value and the plotted value on the graph, which can be used to see how accurate the line of best fit could be. Squaring the errors makes easier to see how distantly both of the data points are to each other
 
 
 
@@ -33,7 +33,7 @@ Would you trust this model to predict a score for a student who studied 10 hours
 - What happens when you make predictions outside the range of your training data?
 
 **YOUR ANSWER:**
-
+Probably not because the maximum hours of studying is 9.5 hours. Since we don't have data around 10 hours of studying, other factors might play into the situation, at some point, studying for long enough won't have as much improvement as the points earlier in the graph. 
 
 
 
