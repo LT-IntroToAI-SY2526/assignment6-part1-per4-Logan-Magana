@@ -49,7 +49,9 @@ Looking at your scatter plot, describe the relationship between hours studied an
 
 **YOUR ANSWER:**
 
-
+It is mostly strong 
+You can make the scatter plot linear ( line of best fit )
+It is a positive relationship
 
 
 ---
@@ -58,9 +60,10 @@ Looking at your scatter plot, describe the relationship between hours studied an
 What are some real-world factors that could affect test scores that this model doesn't account for? List at least 3 factors.
 
 **YOUR ANSWER:**
-1. 
-2. 
-3. 
+1. Working environment
+2. Where they get the study tools from ( like youtube videos or practice problems )
+3. The amount of help they get from friends and teachers
+4. The class that the student is taking
 
 
 ---
@@ -72,7 +75,7 @@ Why do we split our data into training and testing sets? What would happen if we
 
 **YOUR ANSWER:**
 
-
+We split up the data so that we can check if the model is actually able to create a line of best fit and estimate the slope of the line. If we gave all the data for it to test on, the model it creates will be correct but it's also unreliable because we gave them all the answers, making it hard to tell whether our code did what we intended to do
 
 
 ---
@@ -82,7 +85,7 @@ What was the most challenging part of this assignment for you? How did you overc
 
 **YOUR ANSWER:**
 
-
+I think the hardest part of this assignment was settting up the project itself. As you might remember, I had some diffulculties adding the extensions that create the graphs. I came to you to ask for help and you were able to solve the issue by uninstalling the version of python I had and replacing it with an older version of it ( thanks for that [: ). Besides that I would probably like some time researching the details of the new functions we used to get a better understanding of it, either doing it by my own or asking someone for assistance.
 
 
 ---
@@ -97,9 +100,9 @@ Describe one real-world problem you could solve with linear regression. What wou
 
 **YOUR ANSWER:**
 
-
-
-
+X- Percentage of class attendence 
+Y- Average grade
+This is linear because generally there is a consistant growth with grades and attendence rate. There isn't much situations where it grows exponentially ( I wanted to do hours excercising and muscle growth but I think thats more exponential than this example)
 ---
 
 ## Grading Checklist (for your reference)
